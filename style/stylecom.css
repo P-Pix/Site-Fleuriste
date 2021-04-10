@@ -1,0 +1,223 @@
+/******@media******/
+
+@media (max-width: 1000px)
+{
+    nav
+    {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    footer > ul
+    {
+        grid-template-columns: repeat(5, 20%);
+    }
+}
+
+@media (min-width: 1000px)
+{
+    nav
+    {
+        grid-template-columns: repeat(10, 10%);
+    }
+
+    footer > ul
+    {
+        grid-template-columns: repeat(10, 10%);
+    }
+}
+
+/******body******/
+
+body
+{
+    background-color: rgb(253, 253, 206);
+    font-family: sans-serif;
+}
+
+/******header******/
+
+header
+{
+    margin-top: -10em;
+    margin-left: -1em;
+    background-color: white;
+    width: 110%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 15% 55% 15%;
+    border-bottom: 3px solid black;
+    z-index: 1;
+}
+
+header #liste
+{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+}
+
+header > #liste > li
+{
+    float: left;
+	text-align: center;
+	position: relative;
+}
+
+header a
+{
+    text-align: center;
+    display: block;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px
+}
+
+header #liste a
+{
+    text-align: left;
+    padding-left: 1em;
+}
+
+header img
+{
+    margin-top: 1.5em;
+    width: 3em;
+}
+
+header > a:hover
+{
+    border-bottom: none;
+}
+
+header #liste::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******div******/
+
+/******nav******/
+
+
+/******main******/
+
+
+/******footer******/
+
+footer
+{
+    width: 110%;
+    margin-left: -1em;
+    background-color: rgb(255, 221, 227);
+    margin-top : 10em;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+}
+
+footer img
+{
+    width: 3em;
+    float: right;
+    text-align: center;
+    padding-right: 5em;
+    padding-top: 3em;
+}
+
+footer > a:hover
+{
+    border-bottom: none;
+}
+
+/******a******/
+
+a
+{
+    text-decoration: none;
+    color : black;
+}
+
+a:hover
+{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+/******ul******/
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+/******li******/
+
+li
+{
+    text-align: left;
+}
+
+/******section*****/
+
+section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/******article*******/
+
+article
+{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0.5em 0.5em 0.5em;
+}
+
+/******h1******/
+
+h1
+{
+    text-align: center;
+}
+
+/******h2******/
+
+/******h3******/
+
+h3
+{
+    margin: 5px;
+    text-align: center;
+}
+
+/******p******/
+
+p
+{
+    margin: 15px;
+    text-align: justify;
+}
+
+/******class******/
+
+.first
+{
+    display: none;
+	box-shadow: 0em 1em 2em #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.first a:hover
+{
+	background-color: #E5E5E5;
+    border-bottom: none;
+}
+
+
+/******#******/
