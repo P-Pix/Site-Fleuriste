@@ -16,8 +16,21 @@
         </li>
     </ul>
     <ul id = "compte">
-        <li><a href = "compte.php"><?php echo $_SESSION['nom'] ?></a></li>
-        <li><a href = "panier.php">Mon panier</a></li>
+        <li><?php
+                if($_SESSION['nom'] == '')
+                {
+                    ?>
+                    <a href = "signup.php">Créer un compte</a></li>
+                    <?php            
+                }
+                else
+                {
+                    ?>
+                    <a href = "compte.php"><?php echo $_SESSION['nom']?></a></li>
+                    <?php
+                }
+            ?>
+        <li><a href = "panier.php">Mon panier <?php echo $_SESSION['panier']?></a></li>
     </ul>
     <section>
         <input type = "text" id = "recherche" placeholder = "Recherche">

@@ -31,3 +31,10 @@ function recherchePage(event)
     console.log(rechercher);
     window.location.href = (rechercher["url"]);
 }
+
+function acheter(event)
+{
+    event.preventDefault();
+    panier ++;
+    console.log(panier);
+}

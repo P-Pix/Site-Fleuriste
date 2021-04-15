@@ -1,17 +1,20 @@
 <?php
     session_start();
+
+    $_SESSION['nom'] = 'Didier';
+    $_SESSION['panier'] = 0;
 ?>
 
 <!DOCTYPE html>
 <html lang = "fr-FR">
     <head>
         <meta  charset = "UTF-8" />
-        <title>Hibiscus</title>
+        <title>Compte</title>
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
         <link rel = "icon" href = "images/logo.png">
-        <script type = "text/javascript" src = "javascript/function.js"></script>
         <script type = "text/javascript" src = "javascript/recherche_page.js"></script>
+        <script type = "text/javascript" src = "javascript/function.js"></script>
     </head>
     <body>
         <?php include("php/header.php") ?>

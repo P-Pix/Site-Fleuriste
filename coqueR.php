@@ -1,7 +1,5 @@
 <?php
     session_start();
-
-    $_SESSION['nom'] = 'Créer un compte';
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +16,7 @@
     <body>
         <?php include("php/header.php") ?>
         <main>
+        <input type = "submit" value = "acheter" id = "achat">
         </main>
         <?php include("php/footer.php") ?>
         <?php include("php/js.php") ?>
