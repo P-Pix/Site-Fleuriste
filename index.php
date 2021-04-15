@@ -12,17 +12,14 @@
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
         <link rel = "icon" href = "images/logo.png">
-        <script type = "text/javascript" src = "javascript/barre.js"></script>
+        <script type = "text/javascript" src = "javascript/function.js"></script>
+        <script type = "text/javascript" src = "javascript/recherche_page.js"></script>
     </head>
     <body>
-        <header>
-            <?php include("php/header.php") ?>
-        </header>
+        <?php include("php/header.php") ?>
         <main>
         </main>
-        <footer>
-            <?php include("php/footer.php") ?>
-        </footer>
+        <?php include("php/footer.php") ?>
         <?php include("php/js.php") ?>
     </body>
 </html>

@@ -38,7 +38,7 @@ body
 
 header
 {
-    margin-top: -10em;
+    margin-top: -11em;
     margin-left: -1em;
     background-color: white;
     width: 110%;
@@ -95,6 +95,20 @@ header #liste::after
     clear: both;
 }
 
+header section
+{
+    display: grid;
+    grid-template-columns: 245% 110%;
+}
+
+header section input
+{
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
 /******div******/
 
 /******nav******/
@@ -110,7 +124,7 @@ footer
     width: 110%;
     margin-left: -1em;
     background-color: rgb(255, 221, 227);
-    margin-top : 10em;
+    margin-top : 11em;
     display: grid;
     grid-template-columns: repeat(3, 30%);
 }
