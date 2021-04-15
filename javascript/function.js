@@ -19,13 +19,15 @@ function recherchePage(event)
     event.preventDefault();
     let minuscule = recherche.value.toLowerCase();
     let spliter = minuscule.split(" ");
-    let stock = "";
+    console.log(spliter);
+    let rechercher = pages[0];
+    console.log(rechercher);
     for(let x = 0; x < spliter.length; x ++)
     {
-        stock = stock + "[" + spliter[x] + "]";
+        rechercher = rechercher[spliter[x]];
+        rechercher = rechercher[0];
+        console.log(rechercher);
     }
-    let valder = stock.length - 2;
-    console.log(stock.substr(1, valder));
-    console.log(stock);
-    console.log(spliter);
+    console.log(rechercher);
+    window.location.href = (rechercher["url"]);
 }

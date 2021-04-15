@@ -12,8 +12,8 @@
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
         <link rel = "icon" href = "images/logo.png">
-        <script type = "text/javascript" src = "javascript/function.js"></script>
         <script type = "text/javascript" src = "javascript/recherche_page.js"></script>
+        <script type = "text/javascript" src = "javascript/function.js"></script>
     </head>
     <body>
         <?php include("php/header.php") ?>

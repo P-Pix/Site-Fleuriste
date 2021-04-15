@@ -5,13 +5,13 @@
     <ul id = "liste">
         <li>Hibiscus
             <ul class = "first">
-                <li><a href = "suite/hibiscus/rouge.php">Hibiscus Rouge</a></li>
-                <li><a href = "#">Hibiscus bleu</a></li>
+                <li><a href = "hibisR.php">Hibiscus Rouge</a></li>
+                <li><a href = "hibisB.php">Hibiscus bleu</a></li>
             </ul>
         </li>
         <li>Coquelicot
             <ul class = "first">
-                <li><a href = "suite/coquelicot/rouge.php">Coquelicot Rouge</a></li>
+                <li><a href = "coqueR.php">Coquelicot Rouge</a></li>
             </ul>
         </li>
     </ul>

@@ -8,7 +8,7 @@
 <html lang = "fr-FR">
     <head>
         <meta  charset = "UTF-8" />
-        <title>Hibiscus Rouge</title>
+        <title>Coquelicot Rouge</title>
         <link rel = "stylesheet" href="style/stylecom.css">
         <link rel = "stylesheet" href="style/styleindex.css">
         <link rel = "icon" href = "images/logo.png">
