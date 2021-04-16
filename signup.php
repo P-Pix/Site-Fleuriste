@@ -2,6 +2,7 @@
     session_start();
 
     $_SESSION['nom'] = 'Didier';
+    $_SESSION['mdp'] = '1998-2018';
     $_SESSION['panier'] = 0;
 ?>
 

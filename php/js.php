@@ -6,12 +6,18 @@
     let send = document.getElementById("recherche_exe");
     let panier = <?php echo $_SESSION['panier']?>;
     let achat = document.getElementById("achat");
-    
+    let totos = document.getElementsByClassName("total")
+
     console.log(liste);
-    
+    console.log(totos)
+
     for(let fleur = 0; fleur < liste.length; fleur ++)
     {
-        liste[fleur].addEventListener("click", hidden_noHidden);
+        liste[fleur].addEventListener("click", hiddenNoHidden);
+    }
+    for(let total = 0; total < totos.length; total ++)
+    {
+        totos[total].addEventListener("click", prixTotal);
     }
     achat.addEventListener("click", acheter);
     send.addEventListener("click", recherchePage);

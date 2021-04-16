@@ -111,8 +111,15 @@ header section input
 
 /******div******/
 
+div
+{
+    display: grid;
+    grid-template-rows: 25%;
+}
+
 /******nav******/
 
+/******section******/
 
 /******main******/
 
@@ -121,14 +128,13 @@ main
     margin-top : 11em;
 }
 
-
 /******footer******/
 
 footer
 {
-    width: 110%;
+    width: 102.5%;
     margin-top: 1em;
-    margin-left: -1em;
+    margin-left: -10px;
     background-color: rgb(255, 221, 227);
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -178,7 +184,7 @@ li
 }
 
 /******section*****/
-
+/*
 section
 {
     display: grid;
@@ -239,4 +245,50 @@ p
 }
 
 
+.alpha_div
+{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 400px;
+}
+
+.alpha_div article
+{
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.totaldiv
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 /******#******/
+
+#produit img
+{
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#produit
+{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#produit div
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#produit input
+{
+    margin: 15px
+}
