@@ -33,7 +33,7 @@
                         <p class = "prix">Prix unitaire : 19.95 €</p>
                         <input type = "number" class = "nombre" min = "1" placeholder = "Nombre de fleur voulue">
                         <div class = "totaldiv"><input type = "submit" class = "total" value = "total"></div>
-                        <input type = "submit" value = "acheter" id = "achat">
+                        <input type = "submit" value = "acheter" class = "achat">
                     </div>
                 </div>
                 <div class = "alpha_div">
@@ -52,7 +52,7 @@
                     <p class = "prix">Prix unitaire : 19.95 €</p>
                         <input type = "number" class = "nombre" min = "1" placeholder = "Nombre de fleur voulue">
                         <div class = "totaldiv"><input type = "submit" class = "total" value = "total"></div>
-                        <input type = "submit" value = "acheter" id = "achat">
+                        <input type = "submit" value = "acheter" class = "achat">
                     </div>
                 </div>
             </section>
