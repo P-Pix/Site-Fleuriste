@@ -16,13 +16,15 @@ class Router {
 
     public function start() {
         $path = $_SERVER['REQUEST_URI'];
-        $route = $this->routes[$path];
 
-        $controller = $route['controller'];
-        $method = $route['method'];
+        if (array_key_exists($path, $this->routes)) {
+            $controller = $this->routes[$path]['controller'];
+            $method = $this->routes[$path]['method'];
 
-        $controller = new $controller();
-        $controller->$method();
+            $controller->$method();
+        } else {
+            echo '404';
+        }
     }
 };
 
