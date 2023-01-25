@@ -1,5 +1,7 @@
 <?php
 
+require_once "src/controller/Controller.php";
+
 class Router {
     private array $routes;
 
