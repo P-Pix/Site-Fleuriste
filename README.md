@@ -3,6 +3,7 @@
 Projet réalisé en autonomie. Ce projet consiste en la création d'un simili site de fleuriste.
 
 ## Fonctionnement interne
+
 [x] Page d'accueil du site
 [] Se créer un compte
 [] Se cnnecter à sn compte
